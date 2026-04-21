@@ -1,27 +1,45 @@
-# erin-work
+# 💼 erin-work
 
-> **Work** — The Pitch Book · Cross & Company
+> **THE PITCH BOOK · Cross & Company · Est. 2026**
 >
 > *"The client doesn't know what they want. That's why they hired you. Write it down."*
 
-**📁 Open the book → [erin-work.pages.dev](https://erin-work.pages.dev)**
+🟧 **BOOK:** [`OPEN`](https://erin-work.pages.dev) · 🥃 **HOURS BILLED:** classified · 🍸 **OLD FASHIONEDS:** pending audit
 
 ---
 
-Every consulting engagement, tracked like a campaign. Leads, quotes, contracts, invoices, the post-mortem. One issue per engagement. Labels do the pipeline work that a CRM pretends to do for $47 a month — because at a one-person agency, the CRM is a tax you pay for a problem you don't have.
+## 🎯 The idea
 
-## The operation
+Every consulting engagement, tracked like a campaign. Leads → Quotes → Contracts → Invoices → The Post-Mortem.
 
-- **Account floor** (this, public): the pitch room
-- **Client ledger** (private, [`erin-work-data`](https://github.com/Crosserin/erin-work-data)): every engagement, every status
-- **Stack**: Cloudflare Pages + GitHub Issues
-- **Pipeline**: `lead` → `quoted` → `building` → `invoiced` → `closed`
+One issue per engagement. Labels do the pipeline work. Because at a **one-person agency**, a CRM is a tax you pay for a problem you don't have — and every $47/mo saved is a cocktail, metaphorically or otherwise.
 
-## Clearance
+## 🔄 The pipeline
 
-Client information is private. Always has been. Always will be. That is not a feature — it is the job.
+| Stage | Label | Translation |
+|---|---|---|
+| 🎯 | `lead` | Somebody might hire me |
+| 💰 | `quoted` | Ball is in their court |
+| 🛠️ | `building` | Actually doing the work |
+| 📮 | `invoiced` | Bill sent, waiting on the wire |
+| ✅ | `closed` | Paid. Wrapped. Next. |
 
-## Campaigns
+## 🧰 Stack
 
-- 🌐 [xconsultingwork.com](https://xconsultingwork.com) — the shop
-- 🧪 [cf-examples](https://cf-examples.pages.dev) — the spec work
+- 🔥 Cloudflare Pages
+- 🐙 GitHub Issues (one per engagement)
+- 🏷️ Labels as pipeline status
+- 🥃 Negroni — optional but encouraged
+
+## 🤫 Clearance
+
+Client information is private. Always has been. Always will be. That is not a *feature* — that is **the job.**
+
+## 🏢 Campaigns
+
+- 🏢 [xconsultingwork.com](https://xconsultingwork.com) — the shop
+- 🎬 [cf-examples.pages.dev](https://cf-examples.pages.dev) — the spec work
+
+---
+
+*🍸 Don: "I don't use a CRM." — Peggy: "Don, that IS a CRM." — Don: "Pour me another."*
