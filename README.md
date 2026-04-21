@@ -1,21 +1,27 @@
 # erin-work
 
-> **Work** — themed personal tool · *Mad Men*
+> **Work** — The Pitch Book · Cross & Company
+>
+> *"The client doesn't know what they want. That's why they hired you. Write it down."*
 
-Live: **https://erin-work.pages.dev**
+**📁 Open the book → [erin-work.pages.dev](https://erin-work.pages.dev)**
 
-Part of Erin Cross's personal tool suite. Each tool wears a different cinematic theme.
+---
 
-- **UI repo** (this, public): the page + Pages Functions
-- **Data repo** (`erin-work-data`, private): the actual work data
+Every consulting engagement, tracked like a campaign. Leads, quotes, contracts, invoices, the post-mortem. One issue per engagement. Labels do the pipeline work that a CRM pretends to do for $47 a month — because at a one-person agency, the CRM is a tax you pay for a problem you don't have.
 
-## Stack
+## The operation
 
-- Cloudflare Pages (static + Pages Functions)
-- Data proxied from a private GitHub repo via narrowly-scoped PAT
-- GitHub Actions auto-deploys every push to `main`
+- **Account floor** (this, public): the pitch room
+- **Client ledger** (private, [`erin-work-data`](https://github.com/Crosserin/erin-work-data)): every engagement, every status
+- **Stack**: Cloudflare Pages + GitHub Issues
+- **Pipeline**: `lead` → `quoted` → `building` → `invoiced` → `closed`
 
-## Related
+## Clearance
 
-- 🌐 [xconsultingwork.com](https://xconsultingwork.com)
-- 🎨 [cf-examples portfolio](https://cf-examples.pages.dev)
+Client information is private. Always has been. Always will be. That is not a feature — it is the job.
+
+## Campaigns
+
+- 🌐 [xconsultingwork.com](https://xconsultingwork.com) — the shop
+- 🧪 [cf-examples](https://cf-examples.pages.dev) — the spec work
